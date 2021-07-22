@@ -3,10 +3,10 @@ import mysql.connector
 
 def add():
         mydb = mysql.connector.connect(
-                        user ='root',
-                        password= 'Nupur@2000',
-                        host = 'localhost',
-                        database = 'students')
+                        user ='',
+                        password= '',
+                        host = '',
+                        database = '')
         mydbcursor = mydb.cursor()
         return mydb
 
